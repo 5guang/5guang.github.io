@@ -2,58 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on zhangWenguang</title>
-    <link>https://example.com/posts/</link>
+    <link>https://5guang.github.io/posts/</link>
     <description>Recent content in Posts on zhangWenguang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2020 18:14:04 +0800</lastBuildDate>
     
-	<atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://5guang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>https://example.com/2014/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/2014/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
     
     <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://example.com/2014/goisforlovers/</link>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <title>我的第一篇博客</title>
+      <link>https://5guang.github.io/2020/new1/</link>
+      <pubDate>Sat, 16 May 2020 18:14:04 +0800</pubDate>
       
-      <guid>https://example.com/2014/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://example.com/2014/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/2014/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://example.com/2014/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/2014/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>https://5guang.github.io/2020/new1/</guid>
+      <description>为什么要写博客？ 其实早在两年前我就打算自己写博客了，但是自己特别懒一直拖到现在。-.-，写博客其实主要是为了记录自己在编程路上遇到的一些坑及一些解决的方法。因为每次遇到困难时都是百度，再次遇到时可能因为时间的原因导致忘记了解决方法，不得不又去百度。所以想着自己做个博客，专门用来记录这些，也可以来记录生活。
+为什么用hugo？ 这里说明一些，因为之前想要搭建一个动态的博客，所以就自己动手写了一个博客，仿照煎鱼 的博客，不过他的是静态的，刚好那时下家入职的公司有的项目是用react写的，然后我就用react来写的前端，后端部分用的是golang，遇到很多坑，这个后面再说，总之写好了，前后端都用的docker来部署，结果到了最后关头，我看了一下云服务器的价格，就放弃了。
+之前因为看了程序羊的视频，知道了hugo，然后今天就用hugo搭了一套静态博客。
+结语 因为自己之前从来没有写过博客，也从来没使用过markdown，动手之前还在想到底该怎么写，后面不管了，先写吧，总之先开头，开头了就好了。就算写的不好也没关系，就当是个记录。
+最后，希望自己能够坚持写下去。</description>
     </item>
     
   </channel>
