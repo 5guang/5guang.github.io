@@ -9,6 +9,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Posts</title>
+      <link>https://5guang.github.io/posts/</link>
+      <pubDate>Sat, 23 May 2020 10:11:53 +0800</pubDate>
+      
+      <guid>https://5guang.github.io/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://5guang.github.io/about/</link>
       <pubDate>Sat, 16 May 2020 19:07:40 +0800</pubDate>
@@ -16,15 +25,6 @@
       <guid>https://5guang.github.io/about/</guid>
       <description>&lt;p&gt;你好，我是张文光， 一个误入前端的战五渣，技术差还喜欢多学习一些新的知识，目前在学习golang中，喜欢交朋友，联系方式都在主页，欢迎大家来撩。-.-&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Posts</title>
-      <link>https://5guang.github.io/posts/</link>
-      <pubDate>Sat, 16 May 2020 18:14:04 +0800</pubDate>
-      
-      <guid>https://5guang.github.io/posts/</guid>
-      <description></description>
     </item>
     
   </channel>

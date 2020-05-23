@@ -6,10 +6,21 @@
     <description>Recent content in Posts on zhangWenguang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 May 2020 18:14:04 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2020 10:11:53 +0800</lastBuildDate>
     
 	<atom:link href="https://5guang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>vuecli多页面配置踩坑笔记</title>
+      <link>https://5guang.github.io/2020/2020-05-23-2/</link>
+      <pubDate>Sat, 23 May 2020 10:11:53 +0800</pubDate>
+      
+      <guid>https://5guang.github.io/2020/2020-05-23-2/</guid>
+      <description>因为新入职的公司项目同时有 pc 和移动端的，逻辑基本上是一样，但是 ui 不同，之前是两套代码，有新需求，得两套都得写一遍。所以我使用 vue 做一个多页面应用，说是多页面，其实只有两个页面，一个 h5 的，一个 pc 的，各自做成单页面应用。下面说一下用 vuecli 配置多页面中遇到的坑：
+坑点 1 vuecli 配置多页面的入口是一个 pages 属性, 下面是 vuecli 官网给出的说明（vuecli官网链接）：
+// vue.config.js module.exports = { pages: { index: { // page 的入口  entry: &amp;#39;src/index/main.js&amp;#39;, // 模板来源  template: &amp;#39;public/index.html&amp;#39;, // 在 dist/index.html 的输出  filename: &amp;#39;index.html&amp;#39;, // 当使用 title 选项时，  // template 中的 title 标签需要是 &amp;lt;title&amp;gt;&amp;lt;%= htmlWebpackPlugin.options.title %&amp;gt;&amp;lt;/title&amp;gt;  title: &amp;#39;Index Page&amp;#39;, // 在这个页面中包含的块，默认情况下会包含  // 提取出来的通用 chunk 和 vendor chunk。  chunks: [&amp;#39;chunk-vendors&amp;#39;, &amp;#39;chunk-common&amp;#39;, &amp;#39;index&amp;#39;], }, // 当使用只有入口的字符串格式时，  // 模板会被推导为 `public/subpage.</description>
+    </item>
     
     <item>
       <title>我的第一篇博客</title>
